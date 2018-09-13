@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="edu.sse.ustc.innerclass.Customer" table="customer" catalog="newtest">
+        <id name="cusId" type="java.lang.Integer">
+            <column name="cusId" />
+            <generator class="identity" />
+        </id>
+        <property name="mac" type="java.lang.String">
+            <column name="mac" length="45" />
+        </property>
+        <property name="model" type="java.lang.String">
+            <column name="model" length="45" />
+        </property>
+        <property name="latestTime" type="java.util.Date">
+            <column name="latestTime" length="19" />
+        </property>
+        <property name="latestEnvironmentId" type="java.lang.Integer">
+            <column name="latestEnvironmentId" />
+        </property>
+        <property name="latestMapId" type="java.lang.Integer">
+            <column name="latestMapId" />
+        </property>
+        <property name="latestX" type="java.lang.Integer">
+            <column name="latestX" />
+        </property>
+        <property name="latestY" type="java.lang.Integer">
+            <column name="latestY" />
+        </property>
+        <property name="latestZ" type="java.lang.Integer">
+            <column name="latestZ" />
+        </property>
+    </class>
+</hibernate-mapping>

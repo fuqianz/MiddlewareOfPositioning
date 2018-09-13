@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project name="InsideGPS" by="ustc">
+	<parameters name="project_global_parameters">
+    		<server_ip values="127.0.0.1" name="server_ip" />
+    		<rpc_port values="9090" name="rpc_port" />
+    		<socket_port values="9091" name="socket_port" />
+            <environment_name values="思贤楼401" name="environment_name" />
+	 </parameters>
+</project>
